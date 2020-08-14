@@ -40,13 +40,29 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+    One of the parts that we learned about express is that its a web application framework that works on top of 
+    the node.js framework. its adds more functionality, middleware and basically a simpler API.
+    Expresses core features are middleware and routing capabilities. 
+
 -   [ ] Describe Middleware?
+
+    Middleware is basically small apps or functions that can be used in conjuction with 
+    Express to facilitate functions that express does not provide out of the box. Such as authentication
+    or error handling or validation.
 
 -   [ ] Describe a Resource?
 
+    when it comes to restful APIs everything is a resource. anything that gets accessed via URI
+    can be images, files, other computers, webpages...literally anything you can access from one computer
+    to another
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+    http response Status codes and messages
+
 -   [ ] How can we partition our application into sub-applications?
+
+    
 
 ## Minimum Viable Product
 
