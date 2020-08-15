@@ -1,3 +1,18 @@
+const express = require('express');
+
+const server = express();
+
+const host = 'http://localhost';
+const port = 8000;
+
+
+server.use(express.json());
+
+server.listen( () => {
+    console.log(`Api running on ${host}:${port} `)
+})
+
+
 /*
 play this: https://www.youtube.com/watch?v=d-diB65scQU
 
@@ -12,5 +27,4 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
-
 
