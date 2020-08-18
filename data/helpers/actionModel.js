@@ -1,12 +1,12 @@
-const db = require('../dbConfig.js');
+const db = require('../dbConfig');
 const mappers = require('./mappers');
 
 module.exports = {
   get,
   insert,
   update,
-  remove,
-};
+  remove
+  };
 
 function get(id) {
   let query = db('actions');
