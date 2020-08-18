@@ -60,7 +60,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
     http response Status codes and messages
 
--   [ ] How can we partition our application into sub-applications?
+-   [ ] How can we partition our application into sub-application   
+
+    Using express we can partition the application by utilizing the routing feature that comes with it. 
 
     
 
